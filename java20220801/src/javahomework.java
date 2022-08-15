@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class javahomework {
    public static boolean isPrime(int a){
+       for (int i = 0; i < a/2; i++) {
 
+       }
 
    }
     public static void main(String[] args) {
