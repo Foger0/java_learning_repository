@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyArrayList{
@@ -148,5 +149,6 @@ return usedSize;
     // 清空顺序表
     public void clear() {
         this.usedSize=0;
+        ArrayList
     }
 }
