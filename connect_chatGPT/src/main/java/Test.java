@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        String apiKey = "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";
+        String apiKey = "";
         CustomChatGpt customChatGpt = new CustomChatGpt(apiKey);
         // 根据自己的网络设置吧
         customChatGpt.setResponseTimeout(20000);
